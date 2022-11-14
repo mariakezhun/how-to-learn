@@ -51,7 +51,8 @@
   font-size: 18px;
   font-weight: 400;
   color: #000;
-  margin-top: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header__link{
@@ -260,12 +261,13 @@
 .section-title_theme_dark{
   margin: 90px 0 0px;
   color: white;
-  z-index: 1;
+  z-index: 2;
 
 }
 
 .section-subtitle_theme_dark{
   color: white;
+  z-index: 1;
 }
 
 .table_theme_dark{
@@ -366,6 +368,7 @@
 .footer__column-links{
   display: flex;
   flex-direction: column;
+  margin: 0 0 16px;
 }
 
 .footer__column-link{
@@ -379,10 +382,6 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-}
-
-.footer__column-links:last-of-type{
-  margin-right: 0 0 16px;
 }
 
 .footer__social-icon{
