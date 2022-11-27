@@ -9,9 +9,10 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    opacity: 100%;
+    transition: opacity 1s ease-in-out;
   }
 
   .footer__column-link:hover{
-    transition: opacity 1s ease-in-out;
     opacity: 50%;
   }
