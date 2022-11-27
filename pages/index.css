@@ -1,3 +1,5 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
@@ -26,7 +28,7 @@
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__title/);
+@import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 @import url(../blocks/kaufman/kaufman.css);
@@ -45,8 +47,9 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/resources/resources.css);
-@import url(../blocks/resources/__link/);
-@import url(../blocks/resources/__logo-zone/);
+@import url(../blocks/resources/__logo/resources__logo.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/section-title/section-title.css);
@@ -69,19 +72,3 @@
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/rotation/rotation.css);
-
-/*
- khan__container
- khan__author
- khan__title
- khan__quote
- khan__quote-author
- khan__quote-author-subline
- khan__book-container
- khan__book-pic
- khan__buy-link
-
- resources__logo-zone
- resources__link
-
-*/

@@ -1,0 +1,17 @@
+.footer__column-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .footer__column-link:hover{
+    transition: opacity 1s ease-in-out;
+    opacity: 50%;
+  }
